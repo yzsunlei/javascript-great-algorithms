@@ -17,11 +17,11 @@ function fibonacci1(n) {
 }
 
 // 递归写法，参数n变大时，会出现浏览器假死现象
-function fibonacci2(n){
-  if(n <= 2){
+function fibonacci2(n) {
+  if (n <= 2) {
     return 1;
-  }else{
-    return fb1(n-1) + fb1(n-2);
+  } else {
+    return fibonacci2(n - 1) + fibonacci2(n - 2);
   }
 }
 
@@ -30,7 +30,7 @@ function fibonacci3(n, res1 = 1, res2 = 1) {
   if (n <= 2) {
     return res2;
   } else {
-    return fb2(n - 1, res2, res1 + res2);
+    return fibonacci3(n - 1, res2, res1 + res2);
   }
 }
 
