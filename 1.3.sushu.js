@@ -1,3 +1,8 @@
+/*
+素数：
+除了1和它本身以外不能被其它数整除的数，并且0和1不是素数
+ */
+
 // 判断一个数是不是素数
 function isPrinme(n) {
   if (n == 0 || n == 1) {
@@ -39,7 +44,11 @@ function prinmeN(n) {
         result.push(i);
       }
     }
-
   }
   return result;
 }
+
+// 更多资料
+// https://www.cnblogs.com/lmjZone/p/9593063.html
+// https://segmentfault.com/q/1010000008417183
+// https://blog.csdn.net/yeyue1992/article/details/81348722
