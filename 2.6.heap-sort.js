@@ -1,3 +1,9 @@
+/***
+堆排序：
+
+堆排序也是一种很高效的算法，因其把数组当作二叉树来排序而得名。
+ */
+
 function heapSort(arr) {
   let size = arr.length;
 
