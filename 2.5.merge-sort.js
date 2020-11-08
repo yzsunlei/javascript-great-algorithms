@@ -1,3 +1,14 @@
+/**
+归并排序：
+
+归并排序是第一个可以被实际使用的排序算法。
+归并排序性能不错，其复杂度为O(nlogn)。
+
+Mozilla Firefox使用归并排序作为Array.prototype.sort的实现，而Chrome使用了一个快速排序的变体。
+
+归并排序是一种分治算法。
+ */
+
 function mergeSort(arr) {
   const len = arr.length;
 
